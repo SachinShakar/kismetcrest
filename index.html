@@ -1,0 +1,310 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- EDIT ME: your page title and description ------------------------- -->
+    <title>Kismet Crest HOA — Kismet Way, Eugene, Oregon</title>
+    <meta
+      name="description"
+      content="Kismet Crest Homeowners Association: a 38-lot planned community on Kismet Way in Eugene, Oregon. Community layout, dues, key CC&amp;R rules, recorded documents, and how to reach the board."
+    />
+
+    <!-- EDIT ME: social sharing preview --------------------------------- -->
+    <meta property="og:title" content="Kismet Crest HOA" />
+    <meta
+      property="og:description"
+      content="Layout, dues, rules, and documents for Kismet Crest homeowners on Kismet Way."
+    />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary" />
+    <!-- ----------------------------------------------------------------- -->
+
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="styles.css" />
+    <meta name="theme-color" content="#0f6b52" />
+  </head>
+
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <!-- Theme + share controls. Hidden until script.js runs, so they never
+         appear as dead buttons if JavaScript is unavailable. -->
+    <div class="toolbar" hidden id="toolbar">
+      <button type="button" class="toolbar__button" id="theme-toggle">
+        <svg class="icon icon--light" aria-hidden="true">
+          <use href="#icon-sun" />
+        </svg>
+        <svg class="icon icon--dark" aria-hidden="true">
+          <use href="#icon-moon" />
+        </svg>
+        <span class="sr-only" id="theme-toggle-label">Switch theme</span>
+      </button>
+      <button type="button" class="toolbar__button" id="copy-link">
+        <svg class="icon" aria-hidden="true" id="copy-link-icon">
+          <use href="#icon-copy" />
+        </svg>
+        <span class="sr-only">Copy link to this page</span>
+      </button>
+      <span class="sr-only" role="status" id="copy-status"></span>
+    </div>
+
+    <div class="page">
+      <header class="profile">
+        <img class="profile__avatar" src="assets/logo.svg" alt="" width="60" height="60" />
+
+        <!-- EDIT ME: association name, tagline, and location -------------- -->
+        <h1 class="profile__name">Kismet Crest HOA</h1>
+        <p class="profile__tagline">
+          The homeowners association for Kismet Crest, a planned community of
+          38 homes and a shared common area along Kismet Way.
+        </p>
+        <p class="profile__meta">Kismet Way · Eugene, Oregon 97405</p>
+        <!-- ------------------------------------------------------------- -->
+      </header>
+
+      <nav class="contents" aria-label="On this page">
+        <ul class="contents__list">
+          <li><a href="#layout">Layout</a></li>
+          <li><a href="#dues">Dues</a></li>
+          <li><a href="#rules">Key rules</a></li>
+          <li><a href="#documents">Documents</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <main id="main">
+        <section class="section" id="layout" aria-labelledby="layout-heading">
+          <h2 class="label" id="layout-heading">Community layout</h2>
+          <figure class="map">
+            <a href="assets/plat-map.png">
+              <img
+                src="assets/plat-map.png"
+                width="1400"
+                height="636"
+                alt="Recorded plat map of Kismet Crest showing lots 1 to 38 arranged along a private road that loops off Hawkins Lane, with the remaining land marked Lot A, the common area."
+              />
+            </a>
+            <figcaption>
+              Recorded plat, Book 70, Page 6, Lane County. Select the map to
+              open it full size.
+            </figcaption>
+          </figure>
+          <div class="prose">
+            <p>
+              Kismet Crest is laid out along a private road that enters from
+              Hawkins Lane and winds east to a loop at the far end. Lots 1 to
+              16 sit near the entrance, lots 17 to 26 line the middle of the
+              road, and lots 27 to 38 surround the eastern loop. Everything
+              outside the individual lots, including the private road,
+              landscaping, and carport areas, is Lot A, the common area owned
+              by the association.
+            </p>
+          </div>
+          <dl class="facts">
+            <div class="facts__item">
+              <dt>Homes</dt>
+              <dd>38 lots</dd>
+            </div>
+            <div class="facts__item">
+              <dt>Common area</dt>
+              <dd>Lot A</dd>
+            </div>
+            <div class="facts__item">
+              <dt>Established</dt>
+              <dd>1976</dd>
+            </div>
+            <div class="facts__item">
+              <dt>Voting</dt>
+              <dd>1 vote per lot</dd>
+            </div>
+          </dl>
+        </section>
+
+        <section class="section" id="dues" aria-labelledby="dues-heading">
+          <h2 class="label" id="dues-heading">Dues and payments</h2>
+          <!-- EDIT ME: dues amount, due date, and how to pay ----------- -->
+          <dl class="details">
+            <div class="details__row">
+              <dt>Annual dues</dt>
+              <dd>$200 per lot, as last recorded in 1996</dd>
+            </div>
+            <div class="details__row">
+              <dt>Due date</dt>
+              <dd>July 1, in one payment. It must be received by July 31.</dd>
+            </div>
+            <div class="details__row">
+              <dt>Late payments</dt>
+              <dd>
+                Unpaid dues accrue 9% annual interest after 30 days and become
+                a lien on the lot.
+              </dd>
+            </div>
+            <div class="details__row">
+              <dt>Increases</dt>
+              <dd>
+                The board may raise dues up to 3% a year. Anything more needs a
+                two-thirds vote of members.
+              </dd>
+            </div>
+          </dl>
+          <p class="note">
+            Dues maintain the common area and pay its property taxes. Owners of
+            the carports assigned to lots 1–16, 22, 23, 31, and 32 maintain
+            those carports themselves.
+          </p>
+          <!-- --------------------------------------------------------- -->
+        </section>
+
+        <section class="section" id="rules" aria-labelledby="rules-heading">
+          <h2 class="label" id="rules-heading">Key rules from the CC&amp;Rs</h2>
+          <dl class="details">
+            <div class="details__row">
+              <dt>Exterior changes</dt>
+              <dd>
+                Get written approval from the Architectural Committee before
+                building, fencing, landscaping, or changing a home’s exterior.
+                No answer within 30 days counts as approval.
+              </dd>
+            </div>
+            <div class="details__row">
+              <dt>Common area</dt>
+              <dd>
+                No changes to its landscaping or trimming of its trees and
+                shrubs without written approval.
+              </dd>
+            </div>
+            <div class="details__row">
+              <dt>Parking</dt>
+              <dd>
+                Boats, trailers, RVs, and trucks must be kept inside an
+                enclosed garage. Don’t block garages, driveways, or walks.
+              </dd>
+            </div>
+            <div class="details__row">
+              <dt>Pets</dt>
+              <dd>Household pets only, not for commercial breeding.</dd>
+            </div>
+            <div class="details__row">
+              <dt>Signs</dt>
+              <dd>One for-sale or for-rent sign of up to five square feet.</dd>
+            </div>
+            <div class="details__row">
+              <dt>Trash</dt>
+              <dd>Keep it in clean, closed containers.</dd>
+            </div>
+            <div class="details__row">
+              <dt>Shared walls</dt>
+              <dd>
+                Neighbors split the cost of repairing shared walls and their
+                exterior roofs, gutters, and siding.
+              </dd>
+            </div>
+            <div class="details__row">
+              <dt>Insurance</dt>
+              <dd>Insure each home for its full replacement value.</dd>
+            </div>
+          </dl>
+        </section>
+
+        <section class="section" id="documents" aria-labelledby="documents-heading">
+          <h2 class="label" id="documents-heading">Recorded documents</h2>
+          <!-- EDIT ME: documents. To link a file, put it in a "documents"
+               folder and wrap the title in <a href="documents/name.pdf">. -->
+          <ul class="rows">
+            <li class="row">
+              <span class="row__key">1976</span>
+              <span class="row__body">
+                <span class="row__title">Plat of Kismet Crest</span>
+                <span class="row__meta">Book 70, Page 6, Lane County plat records</span>
+              </span>
+            </li>
+            <li class="row">
+              <span class="row__key">1976</span>
+              <span class="row__body">
+                <span class="row__title">Declaration of CC&amp;Rs</span>
+                <span class="row__meta">Reel 782, No. 76-19350, Lane County deed records</span>
+              </span>
+            </li>
+            <li class="row">
+              <span class="row__key">1978</span>
+              <span class="row__body">
+                <span class="row__title">Addendum: carport parking</span>
+                <span class="row__meta">Each carport lot gets one designated parking space</span>
+              </span>
+            </li>
+            <li class="row">
+              <span class="row__key">1996</span>
+              <span class="row__body">
+                <span class="row__title">Addenda 1–3</span>
+                <span class="row__meta">Carport upkeep, July 1 due date, and $200 annual dues</span>
+              </span>
+            </li>
+          </ul>
+          <!-- --------------------------------------------------------- -->
+        </section>
+
+        <section class="section" id="contact" aria-labelledby="contact-heading">
+          <h2 class="label" id="contact-heading">Contact the board</h2>
+          <!-- EDIT ME: contact details. Replace the email address in both
+               places. -->
+          <ul class="links">
+            <li>
+              <a class="link" href="mailto:board@kismetwayhoa.org">
+                <span class="link__index" aria-hidden="true">01</span>
+                <span class="link__body">
+                  <span class="link__title">Email the board</span>
+                  <span class="link__meta">board@kismetwayhoa.org</span>
+                </span>
+                <svg class="icon link__arrow" aria-hidden="true">
+                  <use href="#icon-arrow" />
+                </svg>
+              </a>
+            </li>
+          </ul>
+          <p class="note">
+            For copies of the full CC&amp;Rs, a dues certificate when selling,
+            or an architectural request, email the board.
+          </p>
+          <!-- --------------------------------------------------------- -->
+        </section>
+      </main>
+
+      <footer class="footer">
+        <!-- EDIT ME: footer ------------------------------------------- -->
+        <p>© 2026 Kismet Crest Homeowners Association · Eugene, Oregon</p>
+        <!-- ----------------------------------------------------------- -->
+      </footer>
+    </div>
+
+    <script src="script.js"></script>
+
+    <!-- Icon sprite. Referenced above with <use href="#icon-name" />.
+         Every icon is a 24×24 outline drawn with the current text color. -->
+    <svg class="sprite" aria-hidden="true" focusable="false">
+      <defs>
+        <symbol id="icon-arrow" viewBox="0 0 24 24">
+          <path d="M8 16 16 8" />
+          <path d="M9.5 8H16v6.5" />
+        </symbol>
+        <symbol id="icon-sun" viewBox="0 0 24 24">
+          <circle cx="12" cy="12" r="4.25" />
+          <path
+            d="M12 2.5v2.25M12 19.25v2.25M4.22 4.22l1.6 1.6M18.18 18.18l1.6 1.6M2.5 12h2.25M19.25 12h2.25M4.22 19.78l1.6-1.6M18.18 5.82l1.6-1.6"
+          />
+        </symbol>
+        <symbol id="icon-moon" viewBox="0 0 24 24">
+          <path d="M20 14.5A8.5 8.5 0 0 1 9.5 4a8.5 8.5 0 1 0 10.5 10.5Z" />
+        </symbol>
+        <symbol id="icon-copy" viewBox="0 0 24 24">
+          <rect x="9" y="9" width="11" height="11" />
+          <path d="M15 6.5V4H4v11h2.5" />
+        </symbol>
+        <symbol id="icon-check" viewBox="0 0 24 24">
+          <path d="M5 12.5 9.5 17 19 7.5" />
+        </symbol>
+      </defs>
+    </svg>
+  </body>
+</html>
